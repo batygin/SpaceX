@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494ACF8A7982AA9584EFCBC2 /* Pods_SpaceX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D2F318C0578DDAE874F96 /* Pods_SpaceX.framework */; };
+		720A4926280BF8E8008587C2 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A4925280BF8E8008587C2 /* Launch.swift */; };
+		720A4928280BFC43008587C2 /* LaunchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A4927280BFC43008587C2 /* LaunchTableViewController.swift */; };
+		720A492A280C0464008587C2 /* LaunchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A4929280C0464008587C2 /* LaunchViewCell.swift */; };
+		72297A4827F9D5900002921F /* RocketsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72297A4727F9D5900002921F /* RocketsPageViewController.swift */; };
 		725C891627F9CE2300C9FD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C891527F9CE2300C9FD3E /* AppDelegate.swift */; };
 		725C891827F9CE2300C9FD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C891727F9CE2300C9FD3E /* SceneDelegate.swift */; };
-		725C891A27F9CE2300C9FD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C891927F9CE2300C9FD3E /* ViewController.swift */; };
 		725C891D27F9CE2300C9FD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725C891B27F9CE2300C9FD3E /* Main.storyboard */; };
 		725C891F27F9CE2300C9FD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725C891E27F9CE2300C9FD3E /* Assets.xcassets */; };
 		725C892227F9CE2300C9FD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725C892027F9CE2300C9FD3E /* LaunchScreen.storyboard */; };
+		725F79EA28009AB100B77990 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F79E928009AB100B77990 /* Rocket.swift */; };
+		72643E0B2802E5D900D93AA4 /* RocketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72643E0A2802E5D900D93AA4 /* RocketController.swift */; };
+		72B6428C280ADB0B00193A23 /* RocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B6428B280ADB0B00193A23 /* RocketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6351283DD3293AC44026288F /* Pods-SpaceX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.debug.xcconfig"; sourceTree = "<group>"; };
+		720A4925280BF8E8008587C2 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		720A4927280BFC43008587C2 /* LaunchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTableViewController.swift; sourceTree = "<group>"; };
+		720A4929280C0464008587C2 /* LaunchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewCell.swift; sourceTree = "<group>"; };
+		72297A4727F9D5900002921F /* RocketsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsPageViewController.swift; sourceTree = "<group>"; };
 		725C891227F9CE2300C9FD3E /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725C891527F9CE2300C9FD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		725C891727F9CE2300C9FD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		725C891927F9CE2300C9FD3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		725C891C27F9CE2300C9FD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		725C891E27F9CE2300C9FD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725C892127F9CE2300C9FD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		725C892327F9CE2300C9FD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725F79E928009AB100B77990 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		72643E0A2802E5D900D93AA4 /* RocketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketController.swift; sourceTree = "<group>"; };
+		72B6428B280ADB0B00193A23 /* RocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketViewController.swift; sourceTree = "<group>"; };
+		ED498B4B9C55241DA06385E8 /* Pods-SpaceX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.release.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.release.xcconfig"; sourceTree = "<group>"; };
+		FF2D2F318C0578DDAE874F96 /* Pods_SpaceX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494ACF8A7982AA9584EFCBC2 /* Pods_SpaceX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		725A23262807508900ABB0D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				725F79E928009AB100B77990 /* Rocket.swift */,
+				720A4925280BF8E8008587C2 /* Launch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		725A2327280750BB00ABB0D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72297A4727F9D5900002921F /* RocketsPageViewController.swift */,
+				72B6428B280ADB0B00193A23 /* RocketViewController.swift */,
+				720A4927280BFC43008587C2 /* LaunchTableViewController.swift */,
+				720A4929280C0464008587C2 /* LaunchViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		725A2328280750CF00ABB0D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72643E0A2802E5D900D93AA4 /* RocketController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		725C890927F9CE2300C9FD3E = {
 			isa = PBXGroup;
 			children = (
 				725C891427F9CE2300C9FD3E /* SpaceX */,
 				725C891327F9CE2300C9FD3E /* Products */,
+				77E90804D33C03BE7FB1CBD3 /* Pods */,
+				8EF3C510F26267DFF9C99B55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,34 @@
 		725C891427F9CE2300C9FD3E /* SpaceX */ = {
 			isa = PBXGroup;
 			children = (
+				725A23262807508900ABB0D8 /* Models */,
+				725A2327280750BB00ABB0D8 /* Views */,
+				725A2328280750CF00ABB0D8 /* Controllers */,
 				725C891527F9CE2300C9FD3E /* AppDelegate.swift */,
 				725C891727F9CE2300C9FD3E /* SceneDelegate.swift */,
-				725C891927F9CE2300C9FD3E /* ViewController.swift */,
 				725C891B27F9CE2300C9FD3E /* Main.storyboard */,
 				725C891E27F9CE2300C9FD3E /* Assets.xcassets */,
 				725C892027F9CE2300C9FD3E /* LaunchScreen.storyboard */,
 				725C892327F9CE2300C9FD3E /* Info.plist */,
 			);
 			path = SpaceX;
+			sourceTree = "<group>";
+		};
+		77E90804D33C03BE7FB1CBD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6351283DD3293AC44026288F /* Pods-SpaceX.debug.xcconfig */,
+				ED498B4B9C55241DA06385E8 /* Pods-SpaceX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EF3C510F26267DFF9C99B55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D2F318C0578DDAE874F96 /* Pods_SpaceX.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +140,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 725C892627F9CE2300C9FD3E /* Build configuration list for PBXNativeTarget "SpaceX" */;
 			buildPhases = (
+				72297A4927F9D5EC0002921F /* Run Script */,
+				E6CBA1EAE123F613E9AC14D1 /* [CP] Check Pods Manifest.lock */,
 				725C890E27F9CE2300C9FD3E /* Sources */,
 				725C890F27F9CE2300C9FD3E /* Frameworks */,
 				725C891027F9CE2300C9FD3E /* Resources */,
@@ -133,14 +201,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72297A4927F9D5EC0002921F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		E6CBA1EAE123F613E9AC14D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		725C890E27F9CE2300C9FD3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				725C891A27F9CE2300C9FD3E /* ViewController.swift in Sources */,
+				720A492A280C0464008587C2 /* LaunchViewCell.swift in Sources */,
+				720A4926280BF8E8008587C2 /* Launch.swift in Sources */,
+				72B6428C280ADB0B00193A23 /* RocketViewController.swift in Sources */,
+				72297A4827F9D5900002921F /* RocketsPageViewController.swift in Sources */,
 				725C891627F9CE2300C9FD3E /* AppDelegate.swift in Sources */,
+				720A4928280BFC43008587C2 /* LaunchTableViewController.swift in Sources */,
 				725C891827F9CE2300C9FD3E /* SceneDelegate.swift in Sources */,
+				725F79EA28009AB100B77990 /* Rocket.swift in Sources */,
+				72643E0B2802E5D900D93AA4 /* RocketController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +319,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -262,6 +380,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -282,19 +401,23 @@
 		};
 		725C892727F9CE2300C9FD3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6351283DD3293AC44026288F /* Pods-SpaceX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MF39BKG2D7;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpaceX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,25 +427,29 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		725C892827F9CE2300C9FD3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED498B4B9C55241DA06385E8 /* Pods-SpaceX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MF39BKG2D7;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpaceX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +459,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
