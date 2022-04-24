@@ -12,6 +12,8 @@
 		720A4928280BFC43008587C2 /* LaunchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A4927280BFC43008587C2 /* LaunchTableViewController.swift */; };
 		720A492A280C0464008587C2 /* LaunchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A4929280C0464008587C2 /* LaunchViewCell.swift */; };
 		72297A4827F9D5900002921F /* RocketsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72297A4727F9D5900002921F /* RocketsPageViewController.swift */; };
+		72353032281443F700275DA3 /* FeaturesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72353031281443F700275DA3 /* FeaturesCollectionViewCell.swift */; };
+		7235303428147B0B00275DA3 /* RocketParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7235303328147B0B00275DA3 /* RocketParameters.swift */; };
 		725C891627F9CE2300C9FD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C891527F9CE2300C9FD3E /* AppDelegate.swift */; };
 		725C891827F9CE2300C9FD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C891727F9CE2300C9FD3E /* SceneDelegate.swift */; };
 		725C891D27F9CE2300C9FD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725C891B27F9CE2300C9FD3E /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		720A4927280BFC43008587C2 /* LaunchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTableViewController.swift; sourceTree = "<group>"; };
 		720A4929280C0464008587C2 /* LaunchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewCell.swift; sourceTree = "<group>"; };
 		72297A4727F9D5900002921F /* RocketsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsPageViewController.swift; sourceTree = "<group>"; };
+		72353031281443F700275DA3 /* FeaturesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesCollectionViewCell.swift; sourceTree = "<group>"; };
+		7235303328147B0B00275DA3 /* RocketParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketParameters.swift; sourceTree = "<group>"; };
 		725C891227F9CE2300C9FD3E /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725C891527F9CE2300C9FD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		725C891727F9CE2300C9FD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 			children = (
 				725F79E928009AB100B77990 /* Rocket.swift */,
 				720A4925280BF8E8008587C2 /* Launch.swift */,
+				7235303328147B0B00275DA3 /* RocketParameters.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -70,6 +75,7 @@
 				72B6428B280ADB0B00193A23 /* RocketViewController.swift */,
 				720A4927280BFC43008587C2 /* LaunchTableViewController.swift */,
 				720A4929280C0464008587C2 /* LaunchViewCell.swift */,
+				72353031281443F700275DA3 /* FeaturesCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,8 +259,10 @@
 				720A4926280BF8E8008587C2 /* Launch.swift in Sources */,
 				72B6428C280ADB0B00193A23 /* RocketViewController.swift in Sources */,
 				72297A4827F9D5900002921F /* RocketsPageViewController.swift in Sources */,
+				72353032281443F700275DA3 /* FeaturesCollectionViewCell.swift in Sources */,
 				725C891627F9CE2300C9FD3E /* AppDelegate.swift in Sources */,
 				720A4928280BFC43008587C2 /* LaunchTableViewController.swift in Sources */,
+				7235303428147B0B00275DA3 /* RocketParameters.swift in Sources */,
 				725C891827F9CE2300C9FD3E /* SceneDelegate.swift in Sources */,
 				725F79EA28009AB100B77990 /* Rocket.swift in Sources */,
 				72643E0B2802E5D900D93AA4 /* RocketController.swift in Sources */,

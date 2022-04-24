@@ -31,13 +31,9 @@ class LaunchViewCell: UITableViewCell {
         dateLabel.text = dateFormatter.string(from: date)
 
         if launch.success == true {
-            iconView.image = UIImage(systemName: "paperplane.fill")
-            iconView.image = iconView.image?.withRenderingMode(.alwaysTemplate)
-            iconView.tintColor = UIColor.systemGreen
+            iconView.image = UIImage(named: "rocket-launch")
         } else {
-            iconView.image = UIImage(systemName: "xmark.circle.fill")
-            iconView.image = iconView.image?.withRenderingMode(.alwaysTemplate)
-            iconView.tintColor = UIColor.systemRed
+            iconView.image = UIImage(named: "rocket-crash")
         }
     }
 }

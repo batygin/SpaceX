@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "rocket-crash.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
